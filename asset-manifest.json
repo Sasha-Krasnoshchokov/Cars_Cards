@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/test/static/js/main.65426c41.chunk.js",
-    "main.js.map": "/test/static/js/main.65426c41.chunk.js.map",
-    "runtime-main.js": "/test/static/js/runtime-main.663feaf5.js",
-    "runtime-main.js.map": "/test/static/js/runtime-main.663feaf5.js.map",
-    "static/js/2.02647677.chunk.js": "/test/static/js/2.02647677.chunk.js",
-    "static/js/2.02647677.chunk.js.map": "/test/static/js/2.02647677.chunk.js.map",
-    "static/js/3.4b4724d4.chunk.js": "/test/static/js/3.4b4724d4.chunk.js",
-    "static/js/3.4b4724d4.chunk.js.map": "/test/static/js/3.4b4724d4.chunk.js.map",
+    "main.css": "/test/static/css/main.98b2aa05.chunk.css",
+    "main.js": "/test/static/js/main.9f1d10ce.chunk.js",
+    "main.js.map": "/test/static/js/main.9f1d10ce.chunk.js.map",
+    "runtime-main.js": "/test/static/js/runtime-main.2fd22a0e.js",
+    "runtime-main.js.map": "/test/static/js/runtime-main.2fd22a0e.js.map",
+    "static/js/2.b2cd6bfd.chunk.js": "/test/static/js/2.b2cd6bfd.chunk.js",
+    "static/js/2.b2cd6bfd.chunk.js.map": "/test/static/js/2.b2cd6bfd.chunk.js.map",
     "index.html": "/test/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/test/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.02647677.chunk.js.LICENSE.txt": "/test/static/js/2.02647677.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/test/static/media/logo.6ce24c58.svg"
+    "static/css/main.98b2aa05.chunk.css.map": "/test/static/css/main.98b2aa05.chunk.css.map",
+    "static/js/2.b2cd6bfd.chunk.js.LICENSE.txt": "/test/static/js/2.b2cd6bfd.chunk.js.LICENSE.txt",
+    "static/media/1-VW-Tiguan-2019.da648d0f.png": "/test/static/media/1-VW-Tiguan-2019.da648d0f.png",
+    "static/media/12-Toyota-Venza-2015.763a10e2.png": "/test/static/media/12-Toyota-Venza-2015.763a10e2.png",
+    "static/media/2-Highlander-2014.ffe9761c.png": "/test/static/media/2-Highlander-2014.ffe9761c.png",
+    "static/media/3-Luxus-Lucxury-2017.5c9071ac.png": "/test/static/media/3-Luxus-Lucxury-2017.5c9071ac.png",
+    "static/media/4-Highlander-2016.baaaccac.png": "/test/static/media/4-Highlander-2016.baaaccac.png",
+    "static/media/5-Elantra-2017.e3322f4c.png": "/test/static/media/5-Elantra-2017.e3322f4c.png",
+    "static/media/6-MB-GLE-2016.e7a06d64.png": "/test/static/media/6-MB-GLE-2016.e7a06d64.png",
+    "static/media/7-Toyota-Venza-2015.dd5ff325.png": "/test/static/media/7-Toyota-Venza-2015.dd5ff325.png",
+    "static/media/8-Lexus-F-Sport-2016.b8335cef.png": "/test/static/media/8-Lexus-F-Sport-2016.b8335cef.png",
+    "static/media/Sorting.scss": "/test/static/media/arrow-up.0f529879.svg",
+    "static/media/FAQ.scss": "/test/static/media/openner.91f8aa03.svg",
+    "static/media/DropMenu.scss": "/test/static/media/drop-openner.893361d7.svg",
+    "static/media/facebook.344b8dd5.svg": "/test/static/media/facebook.344b8dd5.svg",
+    "static/media/Header.scss": "/test/static/media/header-bg.43dca3bb.png",
+    "static/media/instagram.97e29283.svg": "/test/static/media/instagram.97e29283.svg",
+    "static/media/logo.805f4318.svg": "/test/static/media/logo.805f4318.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.663feaf5.js",
-    "static/js/2.02647677.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.65426c41.chunk.js"
+    "static/js/runtime-main.2fd22a0e.js",
+    "static/js/2.b2cd6bfd.chunk.js",
+    "static/css/main.98b2aa05.chunk.css",
+    "static/js/main.9f1d10ce.chunk.js"
   ]
 }
