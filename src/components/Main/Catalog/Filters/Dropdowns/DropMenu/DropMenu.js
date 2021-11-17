@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './DropMenu.scss';
 import classnames from 'classnames';
-import { useState } from 'react/cjs/react.development';
 
 function DropMenu({
   isOpenQuery,
