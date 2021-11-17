@@ -1,0 +1,7 @@
+@import '../../styles/styles.scss';
+
+.socials {
+  @extend %display-flex-vc;
+  justify-content: space-between;
+  width: 67px;
+}

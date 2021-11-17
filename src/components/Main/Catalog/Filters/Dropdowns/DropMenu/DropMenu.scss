@@ -1,0 +1,62 @@
+@import '../../../../../../styles/styles.scss';
+
+.drop-menu {
+  @extend %display-flex-vc;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 13.44px 19.44px 0 16px;
+
+  &__menu {
+    @extend %noto-regular-15;
+    @extend %display-flex-vc;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+
+    &-title {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &-openner {
+      @extend %bg-image;
+      background-image: url(../../../../../../images/icons/drop-openner.svg);
+      width: 13px;
+      height: 7.4px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    &--active {
+      @extend %noto-bold-15;
+    }
+
+    &--closure {
+      transform: rotateX(0.5turn);
+    }
+  }
+
+  &__items {
+    width: 100%;
+    text-align-last: left;
+  }
+
+  &__item {
+    @extend %noto-regular-13;
+    margin-bottom: 20px;
+
+    &:hover {
+      cursor: pointer;
+      color: $color-primary-300;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .drop-menu {
+    padding: 13.44px 9px 0 8px;
+  }
+}

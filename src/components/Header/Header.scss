@@ -1,0 +1,71 @@
+@import '../../styles/styles.scss';
+
+.header {
+  padding: 19px $main-padding-sides 0;
+
+  height: 686px;
+
+  @extend %bg-image;
+  background-image: url(../../images/photos/header-bg.png);
+
+  &__navigation {
+    @extend %display-flex-vc;
+    justify-content: space-between;
+
+    margin-bottom: 136px;
+  }
+
+  &__nav-socials {
+    @extend %display-flex-vc;
+  }
+
+  &__title {
+    @extend %noto-bold-50;
+    color: $color-primary-200;
+
+    margin-bottom: 32px;
+  }
+
+  &__description {
+    @extend %display-flex-vc;
+
+    margin-bottom: 72px;
+  }
+
+  &__text {
+    @extend %noto-regular-15;
+    color: $color-primary-200;
+    width: 295px;
+    margin-right: 20px;
+  }
+
+  &__button {
+    @extend %noto-medium-20;
+    color: $color-primary-200;
+
+    width: 296px;
+    height: 56px;
+
+    line-height: 52px;
+
+    text-align: center;
+
+    border: 2px solid $color-primary-200;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+    transition: all 300ms;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $color-primary-200;
+      color: $color-primary-100;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .header {
+    padding: 19px ($main-padding-sides / 5) 0;
+  }
+}

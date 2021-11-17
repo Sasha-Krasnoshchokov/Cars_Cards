@@ -1,0 +1,16 @@
+@import '../../styles/styles.scss';
+
+.nav-bar {
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-right: 40px;
+  }
+
+  &__link {
+    @extend %noto-medium-15;
+    color: $color-primary-200;
+  }
+}

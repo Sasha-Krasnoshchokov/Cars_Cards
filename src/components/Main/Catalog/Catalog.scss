@@ -1,0 +1,42 @@
+@import '../../../styles/styles.scss';
+
+.catalog {
+  text-align: center;
+  padding: 98px $main-padding-sides 0;
+  margin-bottom: $margin-between-main-blocks;
+
+  &__title {
+    @extend %poppins-bold-50;
+    color: $color-secondary-100;
+
+    margin-bottom: $margin-after-block-title;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .catalog {
+    &__cards {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .catalog {
+    &__cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .catalog {
+    padding: 98px ($main-padding-sides / 5) 0;
+  }
+}

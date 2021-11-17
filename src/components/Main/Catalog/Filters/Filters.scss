@@ -1,0 +1,9 @@
+@import '../../../../styles/styles.scss';
+
+.filters {
+  margin-bottom: 23px;
+  &__check-sort {
+    @extend %display-flex-vc;
+    justify-content: space-between;
+  }
+}

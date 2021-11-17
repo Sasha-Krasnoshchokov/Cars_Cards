@@ -1,0 +1,102 @@
+$font-family-noto-sans: 'Noto Sans', sans-serif;
+$font-family-poppins: 'Poppins', sans-serif;
+
+$font-size-12: 12px;
+$font-size-13: 13px;
+$font-size-14: 14px;
+$font-size-15: 15px;
+$font-size-17: 17px;
+$font-size-20: 20px;
+$font-size-25: 25px;
+$font-size-30: 30px;
+$font-size-50: 50px;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+%noto-regular-12 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-12;
+  font-weight: $font-weight-regular;
+  line-height: 16px;
+}
+
+%noto-regular-13 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-13;
+  font-weight: $font-weight-regular;
+  line-height: 11px;
+}
+
+%noto-light-14 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-14;
+  font-weight: $font-weight-light;
+  line-height: 19px;
+}
+
+%noto-regular-15 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-15;
+  font-weight: $font-weight-regular;
+  line-height: 20px;
+}
+
+%noto-medium-15 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-15;
+  font-weight: $font-weight-medium;
+  line-height: 20px;
+}
+
+%noto-bold-15 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-15;
+  font-weight: $font-weight-bold;
+  line-height: 20px;
+}
+
+%noto-regular-17 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-17;
+  font-weight: $font-weight-regular;
+  line-height: 23px;
+}
+
+%noto-medium-20 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-20;
+  font-weight: $font-weight-medium;
+  line-height: 27px;
+}
+
+%noto-semi-bold-25 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-25;
+  font-weight: $font-weight-semi-bold;
+  line-height: 34px;
+}
+
+%noto-semi-bold-30 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-30;
+  font-weight: $font-weight-semi-bold;
+  line-height: 1em;
+}
+
+%noto-bold-50 {
+  font-family: $font-family-noto-sans;
+  font-size: $font-size-50;
+  font-weight: $font-weight-bold;
+  line-height: 68px;
+}
+
+%poppins-bold-50 {
+  font-family: $font-family-poppins;
+  font-size: $font-size-50;
+  font-weight: $font-weight-bold;
+  line-height: 75px;
+}

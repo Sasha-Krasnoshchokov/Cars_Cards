@@ -1,0 +1,82 @@
+@import '../../../styles/styles.scss';
+
+.faq {
+  padding: 0 (3.1 * $main-padding-sides);
+  text-align: center;
+  margin-bottom: 2 * $main-padding-sides;
+
+  &__title {
+    @extend %poppins-bold-50;
+    color: $color-secondary-100;
+
+    margin-bottom: $margin-after-block-title;
+  }
+
+  &__details {
+    @extend %noto-medium-15;
+    color: $color-primary-100;
+    padding: 24px 35px 0 24px;
+    min-height: 44px;
+    height: max-content;
+    text-align: left;
+    border-bottom: 1px solid $color-secondary-400;
+
+    &-open {
+      padding: 24px 46px 24px 39px;
+      background-color: $color-secondary-500;
+      box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+    }
+  }
+
+  &__summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &-open {
+      @extend %noto-bold-15;
+      color: $color-primary-300;
+    }
+  }
+
+  &__openner {
+    @extend %bg-image;
+    background-image: url(../../../images/icons/openner.svg);
+    width: 11px;
+    height: 11px;
+  }
+
+  &__closure {
+    @extend %bg-image;
+    background-image: url(../../../images/icons/closure.svg);
+    width: 11px;
+    height: 2px;
+  }
+
+  &__text:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .faq {
+    padding: 0 (2 * $main-padding-sides);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .faq {
+    padding: 0 ($main-padding-sides);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .faq {
+    padding: 0 ($main-padding-sides / 2);
+  }
+}

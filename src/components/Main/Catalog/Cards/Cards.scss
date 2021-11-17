@@ -1,0 +1,94 @@
+@import '../../../../styles/styles.scss';
+
+.cards {
+  text-align: left;
+
+  background-color: $color-secondary-500;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0px 0px 18px rgba(68, 68, 68, 0.09);
+  }
+
+  &__image {
+    margin-bottom: 20px;
+  }
+
+  &__details {
+    margin: 0 20px 35px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__year {
+    @extend %noto-regular-17;
+    color: $color-secondary-200;
+    margin-right: 8px;
+  }
+
+  &__model {
+    @extend %noto-regular-17;
+    color: $color-primary-100;
+  }
+
+  &__information {
+    margin-bottom: 26px;
+  }
+
+  &__info {
+    @extend %noto-light-14;
+    color: $color-secondary-200;
+
+    &:not(:last-child) {
+      margin-right: 8px;
+      padding-right: 8px;
+      border-right: 1px solid $color-secondary-200;
+    }
+  }
+
+  &__price {
+    @extend %noto-medium-20;
+    color: $color-primary-100;
+  }
+
+  &__is-sold {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    @extend %poppins-bold-50;
+    color: $color-secondary-500;
+
+    &-active {
+      display: block;
+    }
+  }
+
+  &-sold {
+    color: $color-secondary-200;
+  }
+
+  &__new {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    @extend %noto-regular-12;
+    color: $color-secondary-500;
+    width: 66.5px;
+    height: 24px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 0 12.5px 12.5px 0;
+    background-color: $color-primary-100;
+
+    &-active {
+      display: block;
+    }
+  }
+}

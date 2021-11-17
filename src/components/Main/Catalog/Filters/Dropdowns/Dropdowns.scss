@@ -1,0 +1,48 @@
+@import '../../../../../styles/styles.scss';
+
+.dropdowns {
+  margin-bottom: 24px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+
+  &__selected {
+    &-result {
+      position: relative;
+      width: 290px;
+      border-radius: 15px;
+      background-color: $color-primary-300;
+    }
+
+    &-text {
+      @extend %centration;
+      @extend %noto-regular-15;
+      color: $color-primary-200;
+    }
+  }
+}
+
+.drops {
+  width: 170px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: 1px solid $color-secondary-300;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: $color-primary-200;
+  z-index: 1;
+
+  &--open {
+    height: max-content;
+  }
+
+  &--select {
+  border: 1px solid $color-primary-300;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .drops {
+    margin-right: 5px;
+  }
+}

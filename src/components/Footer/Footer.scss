@@ -1,0 +1,19 @@
+@import '../../styles/styles.scss';
+
+.footer {
+  height: 121px;
+  background-color: $color-primary-100;
+
+  &__navigation {
+    @extend %display-flex-vc;
+    justify-content: space-between;
+
+    padding: 37px $main-padding-sides 36px (0.8 * $main-padding-sides);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer__navigation {
+    padding: 37px ($main-padding-sides / 2) 36px (0.8 * $main-padding-sides / 2);
+  }
+}
